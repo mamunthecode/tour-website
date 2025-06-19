@@ -1,0 +1,138 @@
+*{
+        font-family:sans-serif;
+        margin: 0;
+        padding:0;
+    }
+    body{
+        min-height: 100vh;
+        background-image: linear-gradient(#FFFFFF,#EBDCFF);
+    }
+    #banner{
+  
+        margin-top: 100px;
+        margin-bottom:120px ;
+        margin-left: auto;
+        margin-right: auto;
+        width:87.5% ;
+        border-radius: 40px;
+        border: 2px solid hsla(266, 100%, 58%, 0.063);
+        padding: 20px 30px; 
+        background-image: url("../image/hero-bg.png");
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+    }
+   .banner-content{
+        width: 87.50%;
+    }
+.banner-content h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.banner-content h1 span{
+    color: #F411CF;
+}
+.banner-content p{
+    font-weight:medium;
+    font-size: 18px;
+    color:#A8A8A8 ;
+}
+.btn{
+    background-color: #872BFF;
+  border-radius: 30px;
+ width: 145px;
+ height: 50px;
+    padding: 16px 30 px;
+    color: white;
+    cursor: pointer;
+    margin-right: 20 px;
+    margin-top: 20px;
+}
+.ctn{
+  background-color: white;
+  border-radius: 30px;
+ width: 145px;
+ height: 50px;
+    padding: 16px 30 px;
+ 
+    cursor: pointer;
+    margin-right: 20 px;
+    margin-top: 20px;
+}
+#service{
+     width: 87.50%;
+     margin: 0px auto 120px auto;
+}
+.contents{
+    text-align: center;
+}
+.contents h4{
+    font-size: 24px;
+    color: #F411CF;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.contents h3{
+
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 120px;
+}
+
+#service-card-container{
+    display: flex;
+    justify-content:space-between;
+    gap: 30px;
+}
+.service-card{
+    background-color: white;
+    padding: 70px;
+    text-align: center;
+    width: 310px;
+    border-radius: 30px;
+}
+.service-card img{
+    margin-bottom: 30px;
+}
+.service-card h2{
+    font-weight: seminbold;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.service-card p{
+    color: #A8A8A8;
+}
+#story-card-container,#counntery
+{
+    width: 87.50%;
+     margin: 0px auto 120px auto;
+}
+#story-card{
+    background: white;
+    padding: 48px; 
+    border-radius:24px ;
+    display: flex;
+    gap: 20px;
+    
+}
+.story-content h2,
+.story-content p,
+.story-content img
+{
+    margin-bottom: 30px;
+  
+}
+#countery-card-container{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#countery-card-container h2{
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+}
