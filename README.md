@@ -14,4 +14,4 @@ A beautiful, responsive website template designed for travel agencies, tour oper
 ## Demo
 
 Check out the live demo here:  
-Live link-https://glowing-frangollo-b12224.netlify.app/
+Live link-https://mamunthecode.github.io/tour-website/
